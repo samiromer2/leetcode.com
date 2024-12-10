@@ -6,7 +6,7 @@ public:
         int j ;
         while (i < nums.size())
         {
-            j = 1;
+            j = i+1;
             while (j < nums.size())
         {
             if (nums[i] + nums[j] == target)
