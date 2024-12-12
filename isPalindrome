@@ -1,3 +1,19 @@
+# Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
+to switch from int to string then build a 2nd string to reverse it 
+then check string the easy way one index at a time
+# Approach
+<!-- Describe your approach to solving the problem. -->
+
+# Complexity
+- Time complexity:
+<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+
+- Space complexity:
+<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+
+# Code
+```cpp []
 class Solution {
 public:
     bool isPalindrome(int x) {
