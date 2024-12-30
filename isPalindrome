@@ -44,3 +44,14 @@ class PalindromeTest extends TestCase
         $this->assertFalse(isPalindrome(1234)); // Not a palindrome
     }
 }
+
+
+/*/
+Summary
+
+The function works by:
+
+    Rejecting negative numbers.
+    Converting the number to a string.
+    Reversing the string and comparing it to the original.
+/*/
