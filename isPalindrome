@@ -1,5 +1,5 @@
 class Solution {
-    public function isPalindrome($x) {
+    public function isPalindrome2($x) {
         if ($x < 0) {
             return false;
         }
