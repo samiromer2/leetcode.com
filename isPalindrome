@@ -1,40 +1,19 @@
-# Intuition
-<!-- Describe your first thoughts on how to solve this problem. -->
-to switch from int to string then build a 2nd string to reverse it 
-then check string the easy way one index at a time
-# Approach
-<!-- Describe your approach to solving the problem. -->
-
-# Complexity
-- Time complexity:
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
-
-- Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
-
-# Code
-```cpp []
 class Solution {
-public:
-    bool isPalindrome(int x) {
-        if (x < 0)
+    public function isPalindrome($x) {
+        if ($x < 0) {
             return false;
-        // Get the last digit
-
-        string numbertostr = to_string(x);
-        string numbertostrback;
-        int max = numbertostr.length();
-        int count = 0;
-        for (int i = max - 1; i >= 0; --i) {
-            numbertostrback[count] = numbertostr[i];
-            count++;
         }
-                
-for (int i =0;i<=max-1;++i)
-	{
-    if (numbertostrback[i] != numbertostr[i])
-    	return false;
+        
+        // Convert number to string
+        $numberStr = strval($x);
+        $numberStrBack = strrev($numberStr);
+        
+        // Compare each character in the original and reversed strings
+        for ($i = 0; $i < strlen($numberStr); $i++) {
+            if ($numberStr[$i] !== $numberStrBack[$i]) {
+                return false;
+            }
+        }
+        return true;
     }
-    return true;
-    }
-};
+}
