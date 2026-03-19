@@ -1,3 +1,4 @@
+<?php
 class Solution {
     public function isPalindrome2($x) {
         if ($x < 0) {

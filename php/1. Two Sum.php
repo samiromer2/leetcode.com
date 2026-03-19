@@ -32,6 +32,7 @@ class Solution {
 
 // Edge Cases:
 //     Include tests for arrays with negative numbers and large datasets to ensure robustness.
+<?php
 function twoSum($nums, $target)
 {
     $map = [];
