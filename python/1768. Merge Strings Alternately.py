@@ -7,7 +7,7 @@ class Solution:
                 return False
         return True
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        if (len(word1) > 100 or len(word2) > 100):
+        if (0 < len(word1) > 100 or 0 < len(word2) > 100):
             return -1
         if not (self.is_valid(word1)) or not (self.is_valid(word2)):
             return -1
