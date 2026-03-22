@@ -31,3 +31,59 @@ hashmap?
 
 sliding window?
 
+
+Write this somewhere:
+
+Pattern: (e.g., sliding window)
+
+Trick: (e.g., shrink window when sum > target)
+
+Mistake you made
+
+👉 This builds your mental library
+
+After 2–3 days:
+
+Solve same problem again WITHOUT looking
+
+👉 If you can’t → you didn’t learn it yet
+
+How to actually follow LeetCode 75
+
+Don’t go random.
+
+Do it like this:
+
+Week structure:
+
+Day 1–2: Arrays / Strings
+
+Day 3: Two pointers
+
+Day 4: Sliding window
+
+Day 5: Stack / Queue
+
+Day 6: Linked list
+
+Day 7: Review
+
+👉 Problems are grouped by patterns for a reason
+
+Correct thinking:
+
+“Brute force = O(n²) → too slow
+I need faster lookup → hashmap → O(n)”
+
+👉 That’s real problem solving.
+
+Golden Rules
+
+Struggle = growth
+
+Patterns > code
+
+Repetition > new problems
+
+Explain out loud (like interview)
+
